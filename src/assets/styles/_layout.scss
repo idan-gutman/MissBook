@@ -1,0 +1,27 @@
+body {
+}
+
+.app-header {
+    height: 10vh;
+    padding: 0 50px;
+    width: 100%;
+    @include for-mobile-layout{
+        padding: 0 20px;
+    }
+}
+
+.app-main {
+    min-height: 85vh;
+    padding: 0 50px;
+    @include for-mobile-layout{
+        padding: 0 20px;
+    }
+}
+
+.app-footer {
+    height: 5vh;
+    padding: 0 50px;
+    @include for-mobile-layout{
+        padding: 0 20px;
+    }
+}

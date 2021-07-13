@@ -1,0 +1,15 @@
+.app-header {
+    background-color: #f8b34b;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .logo {
+
+    }
+    .nav-header{
+        >*:not(:last-child){
+            margin-inline-end: 10px;
+        }
+    }
+
+}

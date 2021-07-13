@@ -1,0 +1,104 @@
+.book-details {
+    .details-content {
+        margin: 20px 0 20px;
+
+        @include for-mobile-layout {
+            flex-direction: column;
+        }
+
+        p {
+            span {
+                color: #06aacf;
+            }
+        }
+
+        .img-details {
+            position: relative;
+
+            .book-img-details {
+                height: 100%;
+                width: 100%;
+            }
+
+            .sale-img {
+                position: absolute;
+                left: -23px;
+                width: 120px;
+            }
+        }
+
+        .info-details {
+            margin-left: 30px;
+            width: 500px;
+            line-height: 40px;
+
+            @include for-mobile-layout {
+                margin: 0;
+                width: 100%;
+            }
+
+            h2 {
+                color: #06aacf;
+            }
+
+
+        }
+
+        .categories {
+            color: black;
+
+            &:not(:last-child) {
+                margin-inline-end: 5px;
+
+                &::after {
+                    content: ',';
+                }
+            }
+
+        }
+
+        .red {
+            color: #F56C6C;
+        }
+
+        .green {
+            color: rgb(68, 182, 68);
+        }
+    }
+
+    .reviews {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+
+        .review {
+            box-shadow: 0 0px 2px 1px #00000038;
+            margin: 10px;
+            padding: 10px;
+            position: relative;
+            border-radius: 10px;
+
+            .delete-btn {
+                position: absolute;
+                top: 6px;
+                right: 5px;
+            }
+
+            p {
+                span {
+                    color: #06aacf;
+                }
+            }
+        }
+    }
+
+    .btns-details {
+        justify-content: space-evenly;
+        margin: 20px 0;
+
+        @include for-mobile-layout {
+            justify-content: space-between;
+
+        }
+    }
+}

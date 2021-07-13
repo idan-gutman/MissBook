@@ -1,0 +1,25 @@
+.home-page {
+    background-image: url("https://childhub.org/sites/default/files/2020-11/image-asset.jpeg");
+    height: 85vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    background-blend-mode: hard-light;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+
+    .title-home-page {
+        color: white;
+        margin-block-start: 100px;
+        font-size: 50px;
+        @include for-mobile-layout{
+            line-height: 90px;
+            font-size: 55px;
+            text-align: center;
+        }
+
+    }
+
+}

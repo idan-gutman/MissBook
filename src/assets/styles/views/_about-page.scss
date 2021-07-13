@@ -1,0 +1,22 @@
+.about-page{
+    img{
+        width: 40%;
+        height: 50%;
+        margin: 20px 0 20px;
+        @include for-mobile-layout{
+            width: 100%;
+        }
+    }
+    p{
+        width: 40%;
+        margin-bottom: 20px;
+        text-align: center;
+        @include for-mobile-layout{
+            width: 100%;
+        }
+    }
+    h2{
+        margin-bottom: 20px;
+    }
+    
+}

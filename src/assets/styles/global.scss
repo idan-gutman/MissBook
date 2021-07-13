@@ -1,0 +1,28 @@
+//setUp
+@import './setup/variables';
+@import './setup/functions';
+@import './setup/mixins';
+@import './setup/typography';
+
+/*  BASE  */
+@import './helpers';
+@import './base'; 
+@import './layout';
+
+// CMPS
+
+@import './cmps/book-preview';
+@import './cmps/book-list';
+@import './cmps/long-text';
+@import './cmps/book-filter';
+@import './cmps/app-header';
+@import './cmps/app-footer';
+@import './cmps/book-review';
+@import './cmps/user-msg';
+
+// VIEWS
+@import './views/book-details';
+@import './views/about-page';
+@import './views/home-page';
+
+
